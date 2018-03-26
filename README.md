@@ -1,7 +1,7 @@
 # DateMe
 Dating app written with Flutter ( framework for creating apps for iOS and Android )
 
-_Indywidualny projekt programistyczny - gra w UE4._
+_Indywidualny projekt programistyczny_
 
 ---
 
