@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "19679947619",
+    "firebase_url": "https://firefire-b30fc.firebaseio.com",
+    "project_id": "firefire-b30fc",
+    "storage_bucket": "firefire-b30fc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:19679947619:android:ad28a8b6f41b7b42",
+        "android_client_info": {
+          "package_name": "lukasz.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "19679947619-paeh9r1irsan2oiu8hpekig7dbgo6o6j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "lukasz.demo",
+            "certificate_hash": "b3f6b64f1286062a05ed07b9f245448c3e0413d3"
+          }
+        },
+        {
+          "client_id": "19679947619-s9tjk89pog8eagm0ri56rqk05aufd8he.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWLjzoD2LBW1T5K9NGXZ6CRnu_HT12qv8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "19679947619-s9tjk89pog8eagm0ri56rqk05aufd8he.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
