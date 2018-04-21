@@ -15,5 +15,5 @@ Główne założenia projektu:
 
 Użyty framework / biblioteki:
 * Flutter
-* PHP ? 
+* Firebase
 ---
