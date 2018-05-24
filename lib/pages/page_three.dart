@@ -5,24 +5,10 @@ import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 
-import 'page_one.dart';
-import 'page_two.dart';
+import 'menu.dart';
+import 'settings_page.dart';
 import 'page_three.dart';
 
-
-class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
-  @override
-  Widget build(BuildContext context) {
-    return new MaterialApp(
-      title: 'Flutter Demo',
-      theme: new ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: new MyHomePage(),
-    );
-  }
-}
 
 class MyHomePage extends StatefulWidget {
   @override
@@ -93,19 +79,19 @@ class MyHomePageState extends State<MyHomePage> {
       }
     });
   }
-
-  @override
-  void initState() {
-    // TODO: implement initState
-    super.initState();
-    subscription = documentReference.snapshots.listen((datasnapshot) {
-      if (datasnapshot.exists) {
-        setState(() {
-          myText = datasnapshot.data['desc'];
-        });
-      }
-    });
-  }
+//
+//  @override
+//  void initState() {
+//    // TODO: implement initState
+//    super.initState();
+//    subscription = documentReference.snapshots.listen((datasnapshot) {
+//      if (datasnapshot.exists) {
+//        setState(() {
+//          myText = datasnapshot.data['desc'];
+//        });
+//      }
+//    });
+//  }
 
   @override
   void dispose() {
@@ -118,7 +104,7 @@ class MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return new Scaffold(
       appBar: new AppBar(
-        title: new Text("Firebase Demo"),
+        title: new Text("Some text"),backgroundColor: Colors.red,
       ),
       body: new Padding(
         padding: const EdgeInsets.all(20.0),
