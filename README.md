@@ -9,8 +9,7 @@ Główne założenia projektu:
 - Search for users nearby
 - Nice and clear GI
 - Works both on Android and iOS
-----
--
+
 ### Technologies
 - Flutter (Dart)
 - Firebase
